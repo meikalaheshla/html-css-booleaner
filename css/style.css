@@ -11,10 +11,12 @@
 /*logo and banner*/
 
 header {
+    width: 500%;
     height: 150px;
     background-image: url(../img/pattern.png);
     background-color: dodgerblue;
     background-size: contain;
+    margin-left: -200%;
 }
 
 
@@ -22,6 +24,8 @@ header {
 #logo {
     height: 50px;
     margin-top: 75px;
+    text-align: center;
+    margin: ;
 }
 
 /*title and img*/

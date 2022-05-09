@@ -21,7 +21,7 @@ header {
     margin-top: 75px;
 }
 
-
+/*title and img*/
 
 h1 {
     font-size: 40px;
@@ -50,6 +50,8 @@ figcaption {
 
 }
 
+/* Main article*/
+
 p {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -57,4 +59,35 @@ p {
 
 .enfasis {
     background-color: yellow;
+}
+
+/* Data Tab*/
+
+table {
+    margin-top: 30px;
+    text-align: justify;
+    border-spacing: 0;
+
+
+}
+
+th {
+    background-color: dodgerblue;
+    color: aliceblue;
+
+}
+
+tr {
+    background-color: aquamarine;
+
+}
+
+
+
+.table-detail {
+    width: 50%;
+}
+
+#important-data {
+    background-color: white;
 }

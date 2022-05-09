@@ -3,7 +3,10 @@
     box-sizing: border-box;
 }
 
-.container {}
+.container {
+    margin: auto;
+    width: 1080px;
+}
 
 /*logo and banner*/
 
@@ -67,6 +70,7 @@ table {
     margin-top: 30px;
     text-align: justify;
     border-spacing: 0;
+    margin-bottom: 30px;
 
 
 }
@@ -90,4 +94,38 @@ tr {
 
 #important-data {
     background-color: white;
+}
+
+/*footer img and text*/
+
+footer {
+    margin-top: 30px;
+}
+
+.hint {
+    color: rgb(131, 118, 118);
+
+}
+
+.article-hint {
+    height: 130px;
+    width: 180px;
+    background-position: center;
+
+    margin-top: 20px;
+}
+
+.top-hint {
+    background-image: url(../img/monitor.jpg);
+
+}
+
+.bottom-hint {
+    background-image: url(../img/graph.jpg);
+}
+
+.img-description {
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
 }

@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.container {}
+
+/*logo and banner*/
+
 header {
     height: 150px;
     background-image: url(../img/pattern.png);
@@ -15,7 +19,42 @@ header {
 #logo {
     height: 50px;
     margin-top: 75px;
+}
 
 
 
+h1 {
+    font-size: 40px;
+}
+
+#autor {
+    color: grey;
+    display: block;
+}
+
+#referal-link {
+    text-decoration: none;
+    color: rgb(17, 154, 213);
+}
+
+#date {
+    color: grey;
+    display: block;
+    font: size 0.5em;
+    margin-bottom: 20px;
+
+}
+
+figcaption {
+    font-size: small;
+
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.enfasis {
+    background-color: yellow;
 }
